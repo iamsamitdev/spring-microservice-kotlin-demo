@@ -27,12 +27,12 @@ class StudentServiceApplication
 //	}
 //}
 
-fun main(args: Array<String>) {
-	runApplication<StudentServiceApplication>(*args)
-}
-
 //data class Student(
 //	val int: Long,
 //	val name: String,
 //	val age: Int
 //)
+
+fun main(args: Array<String>) {
+	runApplication<StudentServiceApplication>(*args)
+}

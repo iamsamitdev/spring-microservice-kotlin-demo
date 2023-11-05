@@ -2,9 +2,6 @@ package com.itgenius.addressservice
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RestController
 
 @SpringBootApplication
 class AddressServiceApplication
@@ -28,7 +25,6 @@ class AddressServiceApplication
 //            Address(5, "Bob", 24)
 //        )
 //    }
-//
 //}
 
 //data class Address(
